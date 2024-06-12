@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  background: #f4a226;
+  padding: 9.4px 0;
+}
+
+.sectionContainer {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section__title {
+  background-color: #f4a226;
+  font-family: "Monoton", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: -5px;
+  padding: 38.4px 0;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 30px;
+}
+.inp__box {
+  padding: 28px 0;
+  background: #e5771f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inp__box__title {
+  font-family: "Quicksand", fantasy;
+  margin-right: 20px;
+}
+.select,
+.input,
+.addBtn,
+.sortSelect,
+.clearBtn {
+  background-color: #ffebb3;
+  border: none;
+  border-radius: 30px;
+  color: #5a3e2b;
+  cursor: pointer;
+  display: block;
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  outline: none;
+  padding: 12px 32px;
+}
+.addBtn {
+  background: rgb(31, 226, 226);
+  font-weight: 300;
+}
+.drafts__box {
+  background: #5a3e2b;
+  padding: 43px;
+}
+.cards__box {
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.noItemTitle {
+  color: wheat;
+  font-family: "Quicksand", fantasy;
+  font-weight: 500;
+}
+.controlBox {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.sortSelect,
+.clearBtn {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Quicksand", fantasy;
+  font-size: 12px;
+  padding: 6px, 10px;
+}
+.aboutBox {
+  background: rgb(9, 202, 202);
+  font-family: "Quicksand", fantasy;
+  font-style: italic;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 32px;
+}
+
+.aboutBox > h2 > span {
+  background: yellow;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.card__count {
+  color: white;
+  font-family: "Quicksand", fantasy;
+}
+.card__title {
+  color: wheat;
+  font-family: sans-serif;
+}
+
+.deleteBtn{
+  background: transparent;
+  border: none;
+  font-size: 20px;
+
+}
