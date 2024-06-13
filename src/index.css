@@ -13,7 +13,6 @@
 }
 
 .sectionContainer {
-  max-width: 1800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -126,4 +125,39 @@
   border: none;
   font-size: 20px;
 
+}
+
+
+@media (max-width: 768px) {
+  .section__title{
+    font-size: 28px;
+    padding: 18px 0;
+  }
+
+  .inp__box{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .select{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .input{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .addBtn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .aboutBox> h2{
+    font-size: 15px;
+  }
 }
